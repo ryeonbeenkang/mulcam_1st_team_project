@@ -16,3 +16,7 @@ This is the first team project in Multicampus with two lovely team members.
 
 
 ## 4. 테스트 셋에 대하여 인퍼런스 한 뒤, 플랫폼에 적어도 한번결과 제출하기
+
+## 5. 어려웠던점
+
+## 6. 결측치 처리
