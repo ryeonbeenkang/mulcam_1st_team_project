@@ -8,7 +8,7 @@ This is the first team project in Multicampus with two lovely team members.
 # 프로젝트 소개
 
 # 데이터 셋
-## 1. 데이터 특성 파악
+## 1. 데이터 특성 파악(EDA분석)
  - train
  - test
 
@@ -18,14 +18,14 @@ This is the first team project in Multicampus with two lovely team members.
  - 수치화
  - 결측치
 
-# 머신러닝
-
-
-# EDA
-
-
 
 # 가설
+
+
+
+# 머신러닝
+ - 사용 모델: lightGBM
+
 
 
 # 결과
