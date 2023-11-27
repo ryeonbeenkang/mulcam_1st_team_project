@@ -14,6 +14,7 @@ This is the first team project in Multicampus with two lovely team members.
 ## 1. 데이터 특성 파악(EDA분석)
 ### 컬럼들의 파악
 총 컬럼수 : 22개
+
 (1) cap-shape	
 
 (2) cap-surface
