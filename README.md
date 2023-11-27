@@ -32,7 +32,9 @@ This is the first team project in Multicampus with two lovely team members.
 ## Decision Tree계열 알고리즘을 사용하여 분류 모델 학습 시키고 검증
 
 
-## 테스트 셋에 대하여 인퍼런스 한 뒤, 플랫폼에 적어도 한번결과 제출하기
+## 테스트 셋에 대하여 인퍼런스 한 뒤, 결과 제출하기
+
+
 
 # 인사이트
 
