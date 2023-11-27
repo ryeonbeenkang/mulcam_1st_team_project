@@ -12,6 +12,32 @@ This is the first team project in Multicampus with two lovely team members.
 
 # 데이터 셋
 ## 1. 데이터 특성 파악(EDA분석)
+### 컬럼들의 파악
+총 컬럼수 : 22
+(1) cap-shape	
+(2) cap-surface
+(3) cap-color
+(4) bruises
+(5) odor
+(6) gill-attachment
+(7) gill-spacing
+(8) gill-size
+(9) gill-color
+(10) stalk-shape
+(11) stalk-root	
+(12) stalk-surface-above-ring	
+(13) stalk-surface-below-ring
+(14) stalk-color-above-ring	
+(15) stalk-color-below-ring	
+(16) veil-type
+(17) veil-color	
+(18) ring-number
+(19) ring-type
+(20) spore-print-color	
+(21) population
+(22) habitat
+
+ 
  - train
  - test
 
