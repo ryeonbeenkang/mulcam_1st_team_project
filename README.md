@@ -9,6 +9,13 @@ This is the first team project in Multicampus with two lovely team members.
 
 ## 1. 데이터 특성 파악
 
+### 데이터 셋
+
+###  EDA
+
+### 가설
+
+
 ## 2. 데이터의 전처리
 
 
