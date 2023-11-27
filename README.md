@@ -7,6 +7,8 @@ This is the first team project in Multicampus with two lovely team members.
 
 # 프로젝트 소개
 
+file:///C:/Users/ryeon/Downloads/image.png
+
 # 데이터 셋
 ## 1. 데이터 특성 파악(EDA분석)
  - train
