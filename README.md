@@ -7,6 +7,8 @@ This is the first team project in Multicampus with two lovely team members.
 
 # 프로젝트 소개
 
+![image](https://github.com/ryeonbeenkang/mulcam_1st_team_project/assets/47935123/d21abc00-1f66-45df-aa4f-2fbafe73852e)
+
 
 # 데이터 셋
 ## 1. 데이터 특성 파악(EDA분석)
