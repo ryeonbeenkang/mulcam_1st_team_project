@@ -13,8 +13,54 @@
 ## 1. 데이터 특성 파악(EDA분석)
 ### 컬럼들의 파악
 총 컬럼수 : 24개(단, class, mushroom_id는 논외)
+|순서|컬럼명|한국명|속성여뷰|데이터유형|속성개수|세부내용|
+||cap-shape|버섯 갓 모양|Feature|Categorical|6|bell=b,conical=c,convex=x,flat=f, knobbed=k,sunken=s|
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
+||||||||
 
-(1) cap-shape(Feature / Categorical) = 버섯 갓 모양(bell=b,conical=c,convex=x,flat=f, knobbed=k,sunken=s)
 
 (2) cap-surface(Feature / Categorical) = 버섯 갓 표면(fibrous=f,grooves=g,scaly=y,smooth=s)
 
@@ -83,15 +129,15 @@
 
    ```
  - 인코딩 & 수치화:
-   1) Label Encodingg할 컬럼들(0,1로 표현) - (1)gill-size, (2)stalk-shape, (3)veil-type, (4)ring-number
+   (1) Label Encodingg할 컬럼들(0,1로 표현) - (1)gill-size, (2)stalk-shape, (3)veil-type, (4)ring-number
 
   
-   2) One Hot Encoding할 것들(3개 이상의 속성값을 가진 순서가 없는 컬럼 dummy화) - (1)gill-attachment, (2)gill-spacing, (3)gill-color, (4)stalk-root, \
+   (2) One Hot Encoding할 것들(3개 이상의 속성값을 가진 순서가 없는 컬럼 dummy화) - (1)gill-attachment, (2)gill-spacing, (3)gill-color, (4)stalk-root, \
       (5)stalk-surface-above-ring, (6)stalk-surface-above-ring, (7)stalk-color-above-ring, (8)stalk-color-below-ring, \
       (9)veil-color, (10)ring-type, (11)spore-print-color, (12)habitat
 
       
-   3) class 컬럼을 'e'=0 / 'p'=1로 수치화
+   (3) class 컬럼을 'e'=0 / 'p'=1로 수치화
 
   
  - 결측치: 결과 도출을 위한 test 데이터 프래임의 class컬럼이 비어 있는것을 제외하곤, 결측치는 존재 하지 않았다. 
