@@ -3,6 +3,11 @@
 ![image](https://github.com/ryeonbeenkang/mulcam_1st_team_project/assets/47935123/d21abc00-1f66-45df-aa4f-2fbafe73852e)
 
 
+해당 프로젝트는 'Kaggle'의 'Mushroom Classification'데이터 셋을 활용하여 식용여부가 결정되지 않은 버섯들에 대해 다양한 속성을 고려하여 머신러닝 기법으로 학습 하여, 식용여부를 판단하여보는 프로젝트 이다.
+(출처: https://www.kaggle.com/datasets/uciml/mushroom-classification)
+
+
+
 # Data sets
 ## 1. 데이터 특성 파악(EDA분석)
 ### 컬럼들의 파악
@@ -61,9 +66,11 @@
 
 # 가설
   [파생변수 생성을 위한 가설]
-   1. 색이 화려한 버섯은 독버섯이다 - cap-color을 dummie화 시킴
-   2. 대에 띠가 없는 버섯은 독버섯이다 - ring-number, ring-type을 dummies화 시킴
-   3. 세로 결이 없고, 세로로 잘 찢어지지 않는 버섯이 독버섯이다 - gill-attachment를 dummies화 시킴
+   1) 색이 화려한 버섯은 독버섯이다 - cap-color을 dummie화 시킴
+      
+   2) 대에 띠가 없는 버섯은 독버섯이다 - ring-number, ring-type을 dummies화 시킴
+      
+   3) 세로 결이 없고, 세로로 잘 찢어지지 않는 버섯이 독버섯이다 - gill-attachment를 dummies화 시킴
 
 
 # 전처리
@@ -76,12 +83,15 @@
    ```
  - 인코딩 & 수치화:
    1) Label Encodingg할 컬럼들(0,1로 표현) - (1)gill-size, (2)stalk-shape, (3)veil-type, (4)ring-number
+
   
    2) One Hot Encoding할 것들(3개 이상의 속성값을 가진 순서가 없는 컬럼 dummy화) - (1)gill-attachment, (2)gill-spacing, (3)gill-color, (4)stalk-root, \
       (5)stalk-surface-above-ring, (6)stalk-surface-above-ring, (7)stalk-color-above-ring, (8)stalk-color-below-ring, \
       (9)veil-color, (10)ring-type, (11)spore-print-color, (12)habitat
+
       
    3) class 컬럼을 'e'=0 / 'p'=1로 수치화
+
   
  - 결측치: 결과 도출을 위한 test 데이터 프래임의 class컬럼이 비어 있는것을 제외하곤, 결측치는 존재 하지 않았다. 
 
@@ -92,31 +102,49 @@
 
 # 보조기능
 (1) Label Encoding
+
 (2) One Hot Encoding
+
 (3) Entropy
+
 (4) K-fold validation
+
 (5) Stratified K-fold validation
+
 (6) Hypter Parameter Optimization
+
 (7) Graphviz
+
 (8) Feature_importances_
+
 
 
 # 결과
 Decision Tree계열 알고리즘을 사용하여 분류 모델 학습 시키고 검증 + 테스트 셋에 대하여 인퍼런스 한 뒤, 결과 제출
 
 
+
 # 인사이트
 1. 아무관련이 없을 것 같았던 버섯의 띠 보유 현황이 독성판별에 영향을 줬다는 점
+   
 2. 생각보다 다양한 형태를 지닌 독버섯이 존재 했다점
+   
 3. 사람들이 경험적으로 '색깔이 이런 버섯은 독버셧이야' 하는 말이 실제 머신러닝 과정을 거쳐 증명된 점
+
 
 
 # 어려웠던점 & 한계점
 1) 버섯에 대한 무지. 많은 시간을 버섯에 대한 조사에 할애
+   
 2) 총 22가지의 컬럼이 존재, 각 특성의 파악에 장시간을 소요
+   
 3) 대부분의 컬럼 데이터들이 카테고리형 데이터에 순서가 없는 형태였으므로, 많은 dummy 화가 필요
+   
 4) 많은 컬럼수로 인하여 모든 컬럼들을 전부 평가해 볼 수는 없었던 점이 한계점
+   
 5) DecisionTree이 max_depth를 어떻게 적절히 설정할 수 있는지 여러 반복을 거쳐 봤어야 했던점
+    
 6) feature_importances_로 추려낸 중요한 feature들로 모델 학습을 시켜 보아도 그다지 성능의 향상이 크게 보이지 않았던점
+    
 7) gini나 log_loss에 대한 이해부족으로 인한 대부분의 학습이 entropy가 criterion으로 설정되어 학습된점. 
 
