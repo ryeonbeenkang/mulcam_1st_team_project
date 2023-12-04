@@ -147,5 +147,5 @@ Decision Tree계열 알고리즘을 사용하여 분류 모델 학습 시키고 
     
 6) feature_importances_로 추려낸 중요한 feature들로 모델 학습을 시켜 보아도 그다지 성능의 향상이 크게 보이지 않았던점
     
-7) gini나 log_loss에 대한 이해부족으로 인한 대부분의 학습이 entropy가 criterion으로 설정되어 학습된점. 
+7) gini나 log_loss에 대한 이해부족으로 인한 대부분의 학습이 entropy가 criterion으로 설정되어 학습된점.
 
