@@ -3,7 +3,7 @@
 ![image](https://github.com/ryeonbeenkang/mulcam_1st_team_project/assets/47935123/d21abc00-1f66-45df-aa4f-2fbafe73852e)
 
 
-해당 프로젝트는 'Kaggle'의 'Mushroom Classification'데이터 셋 속의 다양한 버섯들의 속성들을 학습/활용하여 식용여부가 결정되지 않은 버섯들들의 속성들을 머신러닝 기법으로 학습 하여 식용여부를 판단하여보는 프로젝트 이다.
+해당 프로젝트는 멀티캠퍼스에서 Decision Tree계열의 머신러닝 알고리즘을 학습한 후, 복습을 목적으로 진행된 프로젝트이며, 'Kaggle'의 'Mushroom Classification'이라는 데이터 셋 속의 다양한 버섯들의 속성들을 활용 & 학습하여 식용여부가 결정되지 않은 버섯들들의 'class'(식용 가능 여부를 나타내는 지표)를 머신러닝 기법으로 학습 하여 식용여부를 판단하여보는 프로젝트 였다. 2023년 11월 28일 부터 21월 1일까지 4일간 매일 3시간씩 진행 되었으며, 결과물은 별도의 업로드 사이트에 업로드 하여 그 결괏값을 측정하는 방식으로 진행 되었다. 
 
 (출처: https://www.kaggle.com/datasets/uciml/mushroom-classification)
 
